@@ -1,4 +1,4 @@
-# Kafka Transaction Dashboard — Backend
+# Kafka Transaction Dashboard - Backend
 
 ASP.NET Core backend for the Real-Time Transaction Dashboard. Bundles Apache Kafka (via Redpanda) and exposes a SignalR hub for live browser updates.
 
@@ -8,13 +8,13 @@ ASP.NET Core backend for the Real-Time Transaction Dashboard. Bundles Apache Kaf
 
 Runs a full Kafka pipeline inside a single Docker container:
 
-- **Producer** — generates a fake payment transaction every 2 seconds
-- **Kafka topic** — `transactions` (1 partition, hosted by Redpanda)
-- **3 Consumers** — each independently reads every event:
-  - `FeedConsumerService` — pushes raw transactions to the browser
-  - `StatsConsumerService` — tracks total volume, success rate, failure count
-  - `AnomalyConsumerService` — detects users with 3+ failures in 60 seconds
-- **SignalR hub** at `/hub` — broadcasts all updates to connected browsers in real time
+- **Producer** - generates a fake payment transaction every 2 seconds
+- **Kafka topic** - `transactions` (1 partition, hosted by Redpanda)
+- **3 Consumers** - each independently reads every event:
+  - `FeedConsumerService` - pushes raw transactions to the browser
+  - `StatsConsumerService` - tracks total volume, success rate, failure count
+  - `AnomalyConsumerService` - detects users with 3+ failures in 60 seconds
+- **SignalR hub** at `/hub` - broadcasts all updates to connected browsers in real time
 
 ---
 
