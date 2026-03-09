@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FDSkLjf4rg8=",
+  "success": true,
+  "projectFilePath": "D:\\Test API 2026\\kafka\\backend\\backend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\INTEL\\.nuget\\packages\\confluent.kafka\\2.13.2\\confluent.kafka.2.13.2.nupkg.sha512",
+    "C:\\Users\\INTEL\\.nuget\\packages\\librdkafka.redist\\2.13.2\\librdkafka.redist.2.13.2.nupkg.sha512"
+  ],
+  "logs": []
+}
