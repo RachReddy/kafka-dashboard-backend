@@ -54,3 +54,4 @@ D:\Test API 2026\kafka\backend\obj\Release\net10.0\refint\backend.dll
 D:\Test API 2026\kafka\backend\obj\Release\net10.0\backend.pdb
 D:\Test API 2026\kafka\backend\obj\Release\net10.0\backend.genruntimeconfig.cache
 D:\Test API 2026\kafka\backend\obj\Release\net10.0\ref\backend.dll
+D:\Test API 2026\kafka\backend\obj\Release\net10.0\backend.sourcelink.json

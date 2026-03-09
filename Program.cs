@@ -41,4 +41,6 @@ app.MapPost("/producer/stop", (ProducerState state) =>
     return Results.Ok(new { status = "stopped" });
 });
 
+app.MapGet("/health", () => Results.Ok(new { status = "ok" }));
+
 app.Run();
