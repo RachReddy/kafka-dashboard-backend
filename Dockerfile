@@ -1,6 +1,7 @@
 FROM ubuntu:22.04
 
 ENV DEBIAN_FRONTEND=noninteractive
+ENV DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=true
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
